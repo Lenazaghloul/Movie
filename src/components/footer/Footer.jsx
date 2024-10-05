@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+
+import './footer.scss';
+
+import { Link } from 'react-router-dom';
+
+
 
 const Footer = () => {
-  return (
-    <div>
-      Footer
-    </div>
-  )
+    return (
+    <>
+    </>
+    
+    );
 }
 
-export default Footer
+export default Footer;
