@@ -7,13 +7,13 @@ export const category = {
 
 export const movieType = {
     upcoming: 'upcoming',
-    popular: 'popular', // Corrected from 'upcoming'
+    popular: 'popular', 
     top_rated: 'top_rated'
 };
 
 export const tvType = {
     upcoming: 'upcoming',
-    popular: 'popular', // Corrected from 'upcoming'
+    popular: 'popular', 
     on_the_air: 'on_the_air'
 };
 

@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import './header.scss'
 import { Link, useLocation } from 'react-router-dom'
-import playLogo from '../../assets/play.svg'; // Import the SVG
+import { ImPlay3 } from "react-icons/im";
 
+ 
 const headerNav =[
   {
     display:'Home',
@@ -45,8 +46,8 @@ const Header = () => {
     <div ref={headerRef} className='header'>
       <div className="header__wrap container">
         <div className="logo">
-          <img src={playLogo} alt="none" />
-          <Link to='/'>tMovies</Link>
+        <ImPlay3 style={{color:'red'}}/>
+        <Link to='/'>tMovies</Link>
         </div>
 <ul className="header__nav">
   {

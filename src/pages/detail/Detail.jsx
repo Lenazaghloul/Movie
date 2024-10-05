@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
+import StarRate from '../../components/starRate/starRate';
 import tmdbApi from '../../api/tmdbApi';
 import apiConfig from '../../api/apiConfig';
 
@@ -40,6 +41,10 @@ const Detail = () => {
                                 <h1 className="title">
                                     {item.title || item.name}
                                 </h1>
+                                <div style={{display: 'flex', justifyContent:'space-between'}}>
+                                <h2>{item.release_date}</h2>
+                                <StarRate voteAverage={item.vote_average} />
+                                </div>
                                 <div className="genres">
                                     {
                                         item.genres && item.genres.slice(0, 5).map((genre, i) => (

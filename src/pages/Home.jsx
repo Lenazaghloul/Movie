@@ -44,7 +44,7 @@ const Home = () => {
 
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Top Rated TV</h2>
+                        <h2>On The Air</h2>
                         <Link to="/tv">
                             <OutlineButton className="small">View more</OutlineButton>
                         </Link>
