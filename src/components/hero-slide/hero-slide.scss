@@ -64,14 +64,14 @@
             }
 
             .btns > * ~ * {
-                margin-left: 1rem;
+                margin-left: 6rem;
             }
 
             .btns,
             .title,
             .overview {
-                opacity: 0;
-                transform: translateY(-100px);
+                opacity: 3;
+                transform: translateY(100px);
                 transition: transform 0.5s ease, opacity 0.5s ease;
             }
         }
